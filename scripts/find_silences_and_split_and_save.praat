@@ -5,6 +5,8 @@ createFolder: "/Users/ethan/Desktop/cardinal_vowels"
 
 # read in the sound file
 Read from file: "/Users/ethan/Documents/GitHub/praat-workshop/cardinal_vowels.wav"
+
+# select the new sound object
 selectObject: "Sound cardinal_vowels"
 
 # name the sound object
