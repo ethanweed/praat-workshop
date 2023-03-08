@@ -1,3 +1,5 @@
+# script to split sound file into separate vowel sound objects
+
 # make a new folder to put the seperate files in
 Read from file: "/Users/ethan/Documents/GitHub/praat-workshop/cardinal_vowels.wav"
 
@@ -16,5 +18,3 @@ plusObject: "TextGrid cardinal_vowels"
 
 # split the sound file into several, one for each vowel
 Extract intervals where: 1, "no", "contains", "sounding"
-
-
