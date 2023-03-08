@@ -13,6 +13,9 @@ selectObject: "Sound cardinal_vowels"
 originalSounds = selected: "Sound"
 
 # get the intensity (for identifying areas with silence)To Intensity: 100, 0, "no"
+To Intensity: 100, 0, "no"
+
+# make a new TextGrid using labels from intensity to segment the sound file
 To TextGrid (silences): -25, 0.1, 0.05, "silent", "sounding"
 
 # name the new TextGrid
