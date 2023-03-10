@@ -22,7 +22,7 @@ outDir$ = chooseDirectory$: "Select a folder to store the output files"
 
 form Enter details
     comment Specify language for these samples.
-    sentence lang e.g. BE, AmE, DK
+    sentence lang e.g. BrEng, AmEng, DK
     comment Enter a name for the output file.
     sentence doc formants
 endform

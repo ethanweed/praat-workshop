@@ -1,0 +1,156 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 7.969875 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "silences" 
+        xmin = 0 
+        xmax = 7.969875 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5689375000000001 
+            text = "silent" 
+        intervals [2]:
+            xmin = 0.5689375000000001 
+            xmax = 1.0089375 
+            text = "heed" 
+        intervals [3]:
+            xmin = 1.0089375 
+            xmax = 1.6329375000000002 
+            text = "silent" 
+        intervals [4]:
+            xmin = 1.6329375000000002 
+            xmax = 1.8889375000000002 
+            text = "hid" 
+        intervals [5]:
+            xmin = 1.8889375000000002 
+            xmax = 2.5849375 
+            text = "silent" 
+        intervals [6]:
+            xmin = 2.5849375 
+            xmax = 2.8009375000000003 
+            text = "head" 
+        intervals [7]:
+            xmin = 2.8009375000000003 
+            xmax = 3.4889375 
+            text = "silent" 
+        intervals [8]:
+            xmin = 3.4889375 
+            xmax = 3.7529375000000003 
+            text = "had" 
+        intervals [9]:
+            xmin = 3.7529375000000003 
+            xmax = 4.4569375 
+            text = "silent" 
+        intervals [10]:
+            xmin = 4.4569375 
+            xmax = 4.7689375 
+            text = "hod" 
+        intervals [11]:
+            xmin = 4.7689375 
+            xmax = 5.4649375000000004 
+            text = "silent" 
+        intervals [12]:
+            xmin = 5.4649375000000004 
+            xmax = 5.7849375 
+            text = "hawd" 
+        intervals [13]:
+            xmin = 5.7849375 
+            xmax = 6.5049375000000005 
+            text = "silent" 
+        intervals [14]:
+            xmin = 6.5049375000000005 
+            xmax = 6.7849375 
+            text = "hood" 
+        intervals [15]:
+            xmin = 6.7849375 
+            xmax = 7.5369375000000005 
+            text = "silent" 
+        intervals [16]:
+            xmin = 7.5369375000000005 
+            xmax = 7.8329375 
+            text = "whod" 
+        intervals [17]:
+            xmin = 7.8329375 
+            xmax = 7.969875 
+            text = "silent" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "vowel" 
+        xmin = 0 
+        xmax = 7.969875 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7050500934179773 
+            text = "" 
+        intervals [2]:
+            xmin = 0.7050500934179773 
+            xmax = 0.7585320291373306 
+            text = "V" 
+        intervals [3]:
+            xmin = 0.7585320291373306 
+            xmax = 1.7633000690122491 
+            text = "" 
+        intervals [4]:
+            xmin = 1.7633000690122491 
+            xmax = 1.8137783727861518 
+            text = "V" 
+        intervals [5]:
+            xmin = 1.8137783727861518 
+            xmax = 2.645046857560397 
+            text = "" 
+        intervals [6]:
+            xmin = 2.645046857560397 
+            xmax = 2.694639197954707 
+            text = "V" 
+        intervals [7]:
+            xmin = 2.694639197954707 
+            xmax = 3.574527064670206 
+            text = "" 
+        intervals [8]:
+            xmin = 3.574527064670206 
+            xmax = 3.6183822519600755 
+            text = "V" 
+        intervals [9]:
+            xmin = 3.6183822519600755 
+            xmax = 4.512159165571259 
+            text = "" 
+        intervals [10]:
+            xmin = 4.512159165571259 
+            xmax = 4.566516260238748 
+            text = "V" 
+        intervals [11]:
+            xmin = 4.566516260238748 
+            xmax = 5.53670130975595 
+            text = "" 
+        intervals [12]:
+            xmin = 5.53670130975595 
+            xmax = 5.607578380123416 
+            text = "V" 
+        intervals [13]:
+            xmin = 5.607578380123416 
+            xmax = 6.546554147877885 
+            text = "" 
+        intervals [14]:
+            xmin = 6.546554147877885 
+            xmax = 6.601008482428498 
+            text = "V" 
+        intervals [15]:
+            xmin = 6.601008482428498 
+            xmax = 7.594124452853107 
+            text = "" 
+        intervals [16]:
+            xmin = 7.594124452853107 
+            xmax = 7.674876773573601 
+            text = "V" 
+        intervals [17]:
+            xmin = 7.674876773573601 
+            xmax = 7.969875 
+            text = "" 
