@@ -3,16 +3,27 @@
 # requires a sound file and TextGrid to be selected
 # the TextGrid should contain a tier with a label showing which sections to extract
 
+# Script to split sound file into separate wav files based on text grid
+
+# requires a sound file and TextGrid to be selected
+# the TextGrid should contain a tier with a label showing which sections to extract
+
 form Split into separate wav files based on TextGrid
     comment Which tier is the label on?
     positive tierNumber
     comment Enter the TextGrid text to split on
     sentence lab e.g. V, vowels, voicing
-    comment Specify directory where you want to save the finished files (don't forget final slash)
-    sentence saveDir /Users/myname/Desktop/newfiles/
+	comment Name for output folder
+	sentence savedir e.g. Danish vowels
     comment Give an optional prefix for all filenames:
     sentence prefix
 endform
+
+pauseScript: "Choose a directory for the output folder"
+
+outDir$ = chooseDirectory$: "Select a folder to store the output files" 
+
+saveDir$ = outDir$ + "/" + savedir$ + "/"
 
 
 # make a new folder to put the seperate files in
@@ -34,3 +45,6 @@ for i to n
 	selectObject: sound_id [i]
 	Save as WAV file: saveDir$ + string$ (i) + ".wav"
 endfor
+
+select all
+Remove
