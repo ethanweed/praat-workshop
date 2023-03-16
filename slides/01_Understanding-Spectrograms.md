@@ -72,7 +72,22 @@ Red: auditory nerves
 ## Exercise
 What is your perceptual range?
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/make-sine-tone.gif?raw=true" width=""/>
+--
+
+<div id = "left">
+
+1. find the lowest tone you can hear
+1. find the highest tone you can hear
+1. enter your results in the google doc: kortlink.dk/2kb5m
+
+
+</div>
+
+<div id = "right">
+
+<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/make-sine.gif?raw=true" width="400"/>
+</div>
+
 
 
 
