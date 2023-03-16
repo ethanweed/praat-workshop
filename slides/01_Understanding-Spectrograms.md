@@ -69,6 +69,11 @@ Red: auditory nerves
 
 --
 
+## Exercise
+What is your perceptual range?
+
+<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/make-sine-tone.gif?raw=true" width=""/>
+
 
 
 ---
