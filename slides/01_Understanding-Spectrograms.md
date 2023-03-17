@@ -89,6 +89,113 @@ What is your perceptual range?
 </div>
 
 
+--
+
+## Hearing
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Tidens_naturlære_fig40.png/1280px-Tidens_naturlære_fig40.png" width="500"/>
+
+
+--
+
+## From moving air to neurotransmission
+
+<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/NIH-Hearing.gif?raw=true" width=""/>
+
+--
+
+## Oscillations
+
+
+
+<div id = "left">
+
+1. Waveform
+    1. time on x-axis
+    1. pressure (intensity) on y axis
+
+1. Spectrogram 
+    1. two y-axes
+    1. fundamental frequency on the right
+    1. "actual" frequency on the left
+
+
+</div>
+
+
+
+<div id = "right">
+
+<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/Sine-100-Hz.png?raw=true" width="500"/>
+
+</div>
+
+--
+
+## Spectral slice
+
+<div id = "left">
+
+1. The y-axis on the slice is still pressure (intensity)
+
+2. The x-axis is _frequency_, not time! We froze time when we selected a window of the sound.
+
+</div>
+
+
+
+<div id = "right">
+
+<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/Sine-100-Hz_spectral-slice.png?raw=true" width="500"/>
+
+</div>
+
+
+--
+
+## Let's build sounds
+100 Hz sine wave
+
+<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/make-sine-with-formula.gif?raw=true" width=""/>
+
+--
+## Let's build sounds
+Select 100 ms
+
+<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/select-100%20ms.gif?raw=true" width=""/>
+
+--
+
+## Let's build sounds
+100 Hz sine with 200 Hz overtone
+
+<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/make-sine-with-overtone.gif?raw=true" width=""/>
+
+--
+
+## Comapre the two sounds
+
+<div id = "left">
+
+<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/100-Hz.png?raw=true" width=""/>
+
+</div>
+
+<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/100+200%20Hz.png?raw=true" width=""/>
+
+<div id = "right">
+
+
+</div>
+
+--
+
+## Formants
+
+(sort of)
+
+<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/Sine-100-200-Hz_spectral-slice.png?raw=true" width=""/>
+
 
 
 ---
@@ -118,6 +225,8 @@ Image credit:
 Ambulance: clipartix.com
 
 Mouse cochlea: Doetzlhofer lab; https://www.betterhearingus.com/researchers-discover-proteins-that-could-soon-cure-hearing-loss/
+
+Ear animation: National Institue of Health; https://www.youtube.com/watch?v=eQEaiZ2j9oc
 
 
 
