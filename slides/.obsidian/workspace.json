@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Praat-Workshop-Part-1.md",
+                "file": "01_Understanding-Spectrograms.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Praat-Workshop-Part-1.md",
+                "file": "01_Understanding-Spectrograms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Praat-Workshop-Part-1.md",
+                "file": "01_Understanding-Spectrograms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Praat-Workshop-Part-1.md"
+                "file": "01_Understanding-Spectrograms.md"
               }
             }
           }
