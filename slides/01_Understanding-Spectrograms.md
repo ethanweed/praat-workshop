@@ -233,9 +233,8 @@ Select 100 ms
 
 --
 
-## Download an ``[i]``
 
-kortlink.dk/2kcfd
+[Download an ``[i]``](https://github.com/ethanweed/praat-workshop/raw/main/data/cardinal_vowels/cardinal_vowel_wavs/vowels1.wav)
 
 --
 
@@ -289,7 +288,43 @@ Spectral slice edition
 ---
 
 
-# Spectrogram settings
+# Spectrogram settings and TextGrids
+
+
+--
+
+<div id = "left">
+
+Download this recording of the [cardinal vowels](https://github.com/ethanweed/praat-workshop/raw/main/data/cardinal_vowels.wav) (the picture is of Daniel Jones, but the voice on the recordings is not!)
+
+Click the link and save the file to  your ``data`` folder
+
+</div>
+
+
+
+<div id = "right">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Daniel_Jones_%28phonetician%29.jpg/220px-Daniel_Jones_%28phonetician%29.jpg" width=""/>
+
+</div>
+
+
+
+
+--
+
+[The North Wind and the Sun](https://github.com/ethanweed/praat-workshop/raw/main/data/the_north_wind_and_the_sun.wav) 
+
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/The_North_Wind_and_the_Sun_-_Wind_-_Project_Gutenberg_etext_19994.jpg/220px-The_North_Wind_and_the_Sun_-_Wind_-_Project_Gutenberg_etext_19994.jpg" width=""/>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/The_North_Wind_and_the_Sun_-_Sun_-_Project_Gutenberg_etext_19994.jpg/220px-The_North_Wind_and_the_Sun_-_Sun_-_Project_Gutenberg_etext_19994.jpg" width=""/>
+
+Download the file and save in ``data`` folder
+
+--
+
+
 
 ---
 
