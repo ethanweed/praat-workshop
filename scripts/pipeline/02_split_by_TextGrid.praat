@@ -1,12 +1,4 @@
-# Script to split sound file into separate wav files based on text grid
 
-# requires a sound file and TextGrid to be selected
-# the TextGrid should contain a tier with a label showing which sections to extract
-
-# Script to split sound file into separate wav files based on text grid
-
-# requires a sound file and TextGrid to be selected
-# the TextGrid should contain a tier with a label showing which sections to extract
 # Script to split sound file into separate wav files based on text grid
 
 # requires a sound file and TextGrid to be selected

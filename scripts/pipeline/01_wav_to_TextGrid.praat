@@ -1,6 +1,9 @@
 # take a wav file and create a TextGrid with segments added around areas with sounding
 # script ends be displaying the sound and TextGrid together, so you can adjust the segments, or add a tier for e.g. marking vowels
 
+# 1. mark the vowel segements you want to extract
+# 2. save your completed TextGrid
+
 pauseScript: "Choose the file you want to segment"
 
 inFile$ = chooseReadFile$: "pick a file"
