@@ -309,7 +309,20 @@ Click the link and save the file to  your ``data`` folder
 </div>
 
 
+--
 
+## Spectrogram settings
+
+<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/cardinal_vowels_spectrogram_settings.png?raw=true" width="550"/>
+
+
+--
+
+## Spectrograms are slices
+
+"see"
+
+<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/see_spectrogram.png?raw=true" width="550"/>
 
 --
 
