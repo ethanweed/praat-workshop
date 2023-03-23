@@ -4,19 +4,12 @@ customTheme : "ethan-slides"
 
 
 
-# Title
+# Automating Praat
 
 ---
 
-# Review
 
----
-
-## Quiz
-
----
-
-# Topic 1
+# Programming
 
 ---
 
