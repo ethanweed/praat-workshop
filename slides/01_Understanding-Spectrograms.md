@@ -116,7 +116,7 @@ What is your perceptual range?
 
 1. Spectrogram 
     1. two y-axes
-    1. fundamental frequency on the right
+    1. f0 on the right
     1. "actual" frequency on the left
 
 
@@ -278,8 +278,6 @@ Select 100 ms
 
 ## I-human vs. I-Robot
 
-Spectral slice edition
-
 <img src="https://github.com/ethanweed/praat-workshop/blob/main/images/i-human%20v%20i-robot%20slices.png?raw=true" width=""/>
 
 1. What differences do you observe?
@@ -293,11 +291,25 @@ Spectral slice edition
 
 --
 
+
+## Spectrograms are slices
+
+"see"
+
+<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/see_spectrogram.png?raw=true" width="450"/>
+
+
+<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/see-spectral-slices.png?raw=true" width="450"/>
+
+
+--
+
 <div id = "left">
 
 Download this recording of the [cardinal vowels](https://github.com/ethanweed/praat-workshop/raw/main/data/cardinal_vowels.wav) (the picture is of Daniel Jones, but the voice on the recordings is not!)
 
-Click the link and save the file to  your ``data`` folder
+- Click the link and save the file to  your ``data`` folder
+- Open the file in Praat
 
 </div>
 
@@ -308,21 +320,12 @@ Click the link and save the file to  your ``data`` folder
 
 </div>
 
-
 --
 
 ## Spectrogram settings
 
 <img src="https://github.com/ethanweed/praat-workshop/blob/main/images/cardinal_vowels_spectrogram_settings.png?raw=true" width="550"/>
 
-
---
-
-## Spectrograms are slices
-
-"see"
-
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/see_spectrogram.png?raw=true" width="550"/>
 
 --
 
@@ -337,12 +340,9 @@ Download the file and save in ``data`` folder
 
 --
 
+## Annotation
 
-
----
-
-
-# EXERCISE
+<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/north-wind-pitch.png?raw=true" width="550"/>
 
 
 ---
@@ -361,7 +361,11 @@ Mouse cochlea: Doetzlhofer lab; https://www.betterhearingus.com/researchers-disc
 Ear animation: National Institue of Health; https://www.youtube.com/watch?v=eQEaiZ2j9oc
 
 
+Daniel Jones: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Daniel_Jones_%28phonetician%29.jpg/220px-Daniel_Jones_%28phonetician%29.jpg
 
+Wind: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/The_North_Wind_and_the_Sun_-_Wind_-_Project_Gutenberg_etext_19994.jpg/220px-The_North_Wind_and_the_Sun_-_Wind_-_Project_Gutenberg_etext_19994.jpg
+
+Sun: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/The_North_Wind_and_the_Sun_-_Sun_-_Project_Gutenberg_etext_19994.jpg/220px-The_North_Wind_and_the_Sun_-_Sun_-_Project_Gutenberg_etext_19994.jpg
 
 
 </div>
