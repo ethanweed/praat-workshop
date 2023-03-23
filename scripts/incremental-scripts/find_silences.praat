@@ -1,4 +1,4 @@
-# make a new folder to put the seperate files in
+# read the wav file in as a sound object
 Read from file: "/Users/ethan/Documents/GitHub/praat-workshop/cardinal_vowels.wav"
 
 # select the sound object
