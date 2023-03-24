@@ -1,3 +1,8 @@
+####################
+# Give the students this first part. 
+# Go through it, to show what it does, but it is more valuable
+# for them to build the loop themselves
+
 clearinfo
 
 # read files
@@ -25,6 +30,13 @@ outDir$ = chooseDirectory$: "Select a folder to store the output files"
 # Create the output file and write the first line.
 outPath$ = outDir$ + "/" + "formants.csv"
 writeFileLine: "'outPath$'", "Vowel,F1,F2,F3"
+
+####################################
+# Have the students work on building the loop themselves
+# 1. Break into small pieces
+# 2. Prototype
+# 3. Loop
+# 4. Generalize
 
 
 for i from 1 to numFiles

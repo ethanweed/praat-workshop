@@ -59,6 +59,10 @@ appendInfoLine: "Segments extracted!"
 # endfor
 
 
+# for i to n
+#    sound_id [i] = selected ("Sound", i)
+#	appendInfoLine: sound_id [i]
+# endfor
 
 
 # make a new folder to put the seperate files in
