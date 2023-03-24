@@ -30,10 +30,10 @@ Extract intervals where: 1, "no", "contains", "sounding"
 
 
 # make an array of sound id numbers
-n = numberOfSelected ("Sound")
-for i to n
-    sound_id [i] = selected ("Sound", i)
-endfor
+#n = numberOfSelected ("Sound")
+#for i to n
+#    sound_id [i] = selected ("Sound", i)
+#endfor
 
 # loop through the new sound objects and save them as wav files
 n = numberOfSelected ("Sound")
