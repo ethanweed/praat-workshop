@@ -138,6 +138,30 @@ Make a vowel space plot
 
 <img src="https://github.com/ethanweed/praat-workshop/blob/main/images/vowel-editor.png?raw=true" width="400"/>
 
+--
+
+## strategy
+
+<div id = "left">
+
+1. Identify your goal
+1. Break into small tasks
+1. Prototype
+1. Loop
+1. Generalize
+
+</div>
+
+
+
+<div id = "right">
+
+<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/vowel-editor.png?raw=true" width="400"/>
+
+</div>
+
+
+
 ---
 
 
