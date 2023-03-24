@@ -41,3 +41,36 @@ Extract intervals where: 1, "no", "contains", "sounding"
 appendInfoLine: "Segments extracted!"
 
 
+##########################
+
+# add a loop to save
+
+# Exercise:
+# use history to find out what the save syntax is
+
+#Save as WAV file: "/Users/ethan/Desktop/cardinal_vowels_sounding_1.wav"
+
+
+# build a loop:
+
+# n = numberOfSelected ("Sound")
+# for i to n
+	# do something
+# endfor
+
+
+
+
+# make a new folder to put the seperate files in
+createFolder: "/Users/ethan/Desktop/cardinal_vowels"
+
+# make an array of sound id numbers
+n = numberOfSelected ("Sound")
+
+for i to n
+    sound_id [i] = selected ("Sound", i)
+	appendInfoLine: sound_id [i]
+	Save as WAV file: "/Users/ethan/Desktop/cardinal_vowels/vowels" + string$ (i) + ".wav"
+endfor
+
+
