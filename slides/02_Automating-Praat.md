@@ -77,6 +77,26 @@ favSnack$ = "PB & J"
 
 --
 
+## Fun with variables
+
+```praat
+name$ = "Ethan"
+age = 49
+nameCat$ = "D2"
+
+age$ = string$: age
+
+clearinfo
+output$ = name$ + " is " + age$ + " years old."
+appendInfoLine: output$
+
+output$ = name$ + " has a cat named " + nameCat$
+appendInfoLine: output$
+
+```
+
+--
+
 ## Loops
 
 
@@ -100,9 +120,7 @@ clearinfo
 days = 7
 
 for day from 1 to days
-
 	appendInfoLine: "Day ", day, ": take the bus"
-
 endfor
 
 ```
@@ -116,6 +134,7 @@ endfor
 clearinfo
 
 days = 7
+
 for day from 1 to days
 	if day == 3
 		appendInfoLine: "Day ", day, ": ride bike"
@@ -133,6 +152,8 @@ variables + loops + conditionals = power
 ---
 
 # Project
+
+--
 
 Make a vowel space plot
 

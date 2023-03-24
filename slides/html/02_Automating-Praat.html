@@ -139,6 +139,25 @@
             </section>
         
             <section >
+                <h2>Fun with variables</h2>
+<pre><code class="language-praat">name$ = &quot;Ethan&quot;
+age = 49
+nameCat$ = &quot;D2&quot;
+
+age$ = string$: age
+
+clearinfo
+output$ = name$ + &quot; is &quot; + age$ + &quot; years old.&quot;
+appendInfoLine: output$
+
+output$ = name$ + &quot; has a cat named &quot; + nameCat$
+appendInfoLine: output$
+
+</code></pre>
+
+            </section>
+        
+            <section >
                 <h2>Loops</h2>
 <pre><code class="language-praat">    n = some number
 
@@ -158,9 +177,7 @@
 days = 7
 
 for day from 1 to days
-
 	appendInfoLine: &quot;Day &quot;, day, &quot;: take the bus&quot;
-
 endfor
 
 </code></pre>
@@ -173,6 +190,7 @@ endfor
 clearinfo
 
 days = 7
+
 for day from 1 to days
 	if day == 3
 		appendInfoLine: &quot;Day &quot;, day, &quot;: ride bike&quot;
@@ -200,7 +218,11 @@ endfor
     <section>
         <section >
             <h1>Project</h1>
-<p>Make a vowel space plot</p>
+
+            </section>
+        
+            <section >
+                <p>Make a vowel space plot</p>
 <img src="https://github.com/ethanweed/praat-workshop/blob/main/images/vowel-editor.png?raw=true" width="400"/>
             </section>
         
