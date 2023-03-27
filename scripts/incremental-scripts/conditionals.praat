@@ -9,6 +9,8 @@ days = 7
 for day from 1 to days
 	if day == 3
 		appendInfoLine: "Day", day, ": ride bike"
+	elif day == 6
+appendInfoLine: "Day", day, ": ride bike"
 	else
 		appendInfoLine: "Day", day, ": take the bus"
 	endif

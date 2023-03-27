@@ -181,6 +181,16 @@ Make a vowel space plot
 
 </div>
 
+--
+
+```praat
+1. read the wav file in as a sound object
+2. select the sound object
+3. get the intensityx (for identifying areas with silence
+4. make a new TextGrid using labels from intensity to segment the sound file
+5. select the sound and the TextGrid together
+6. inspect where the segments have been placed
+```
 
 
 ---

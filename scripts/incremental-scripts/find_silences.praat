@@ -1,5 +1,5 @@
 # read the wav file in as a sound object
-Read from file: "/Users/ethan/Documents/GitHub/praat-workshop/cardinal_vowels.wav"
+Read from file: "/Users/ethan/Documents/GitHub/praat-workshop/data/cardinal_vowels.wav"
 
 # select the sound object
 selectObject: "Sound cardinal_vowels"
@@ -15,4 +15,8 @@ selectObject: "Sound cardinal_vowels"
 plusObject: "TextGrid cardinal_vowels"
 
 # inspect where the segments have been placed
-View & Edit
+# View & Edit
+
+
+Extract intervals where: 1, "no", "is equal to", "sounding"
+
