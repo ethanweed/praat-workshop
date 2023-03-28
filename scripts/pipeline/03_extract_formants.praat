@@ -1,4 +1,4 @@
-clearinfo
+
 
 # read files
 inDir$ = chooseDirectory$: "Select folder with your .wav files"

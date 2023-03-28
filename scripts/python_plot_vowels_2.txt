@@ -1,0 +1,118 @@
+# load the data into a dataframe
+#df = pd.read_csv('/Users/ethan/Desktop/Aussies.csv')
+df = pd.read_csv('/Users/ethan/Documents/GitHub/praat-workshop/data/formants_English-speakers.csv')
+
+
+###########################
+
+# in our data, the vowel names have ".wav" file extension at the end, so this code removes those
+# not really necessary in this case, but just to show how to do it, in case this might be useful in the future
+df
+
+vowelname = []
+for i in list(df['Vowel']):
+    nv = i[0:-4]
+    vowelname.append(nv)
+df['Vowel'] = vowelname
+
+df.head()
+
+
+##########################
+
+
+# add labels for vowels
+# here I am using the actual words that were spoken
+
+# list of the words, in the order that matches the data
+labels = ['heed', 'hid', 'head', 'had', 'hod', 'hawed', 'hood', 'whod']
+#labels = ['i', 'I', 'ɛ', 'æ', 'ɑ', 'ɔ', 'ʊ', 'u']
+
+# overwrites the labels in the "Vowel" column by multiplying the list by the largest number in the Speaker column
+df['Vowel'] = labels * max(df['Speaker'])
+df.head()
+
+
+
+
+
+
+##########################
+
+
+
+vowelplot(df, color = 'Language')
+
+
+##########################
+
+
+# convert to bark scale
+barkify(df, ["F1","F2"])
+
+
+##########################
+
+
+vowelplot(df,
+          F1 = "z1",
+          F2 = "z2",
+          color = "Language",
+          unit = "Bark",
+          logscale = False)
+          
+          
+          
+##########################
+
+
+
+# normalize using Lovanov method
+Lobify(df, 
+       group = "Speaker",
+       formants = ["F1","F2"]
+      )
+      
+      
+##########################
+
+
+
+vowelplot(df,
+          F1 = "zsc_F1",
+          F2 = "zsc_F2",
+          color = "Language",
+          unit = "Lobanov normalized from Bark",
+          logscale = False)
+          
+          
+##########################
+
+
+df_means = df.groupby(['Language', 'Vowel'])['zsc_F1', 'zsc_F2'].mean()
+df_means = df_means.reset_index()
+df_means
+
+
+##########################
+
+
+df_means = df.groupby(['Language', 'Vowel'])['zsc_F1', 'zsc_F2'].mean()
+df_means = df_means.reset_index()
+df_means
+
+
+##########################
+
+
+vowelplot(df_means,
+          F1 = "zsc_F1",
+          F2 = "zsc_F2",
+          color = "Language",
+          unit = "Lobanov normalized from Bark",
+          logscale = False)
+          
+          
+##########################
+
+
