@@ -1,0 +1,12 @@
+# import data structuring and plotting libraries
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+
+
+# read our csv file into a dataframe
+df = pd.read_csv("/Users/ethan/Documents/GitHub/praat-workshop/data/cardinal_vowels/formants.csv")
+
+# inspect the first 5 lines
+df.head()
