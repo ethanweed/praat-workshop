@@ -4,9 +4,13 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-
 # read our csv file into a dataframe
-df = pd.read_csv("/Users/ethan/Documents/GitHub/praat-workshop/data/cardinal_vowels/formants.csv")
+df = pd.read_csv("")
 
 # inspect the first 5 lines
 df.head()
+
+# plot vowels
+ax = sns.scatterplot(data=df, x=df['F2'], y=df['F1'])
+ax.invert_yaxis()
+ax.invert_xaxis()

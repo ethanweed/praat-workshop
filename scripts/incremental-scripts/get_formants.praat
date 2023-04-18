@@ -31,8 +31,11 @@ outDir$ = chooseDirectory$: "Select a folder to store the output files"
 outPath$ = outDir$ + "/" + "formants.csv"
 writeFileLine: "'outPath$'", "Vowel,F1,F2,F3"
 
-####################################
 
+# 1. Break into small pieces
+# 2. Prototype
+# 3. Loop
+# 4. Generalize
 
 
 for i from 1 to numFiles
@@ -43,6 +46,9 @@ for i from 1 to numFiles
 	selectObject: wav
 	To Formant (burg): 0, 5, 5500, 0.025, 50
 	
+	#duration = Get total duration
+	#midpoint = duration / 2
+	#appendInfoLine: midpoint
 	
 	f1 = Get mean: 1, 0, 0, "hertz"
 	f2 = Get mean: 2, 0, 0, "hertz"
@@ -55,20 +61,3 @@ for i from 1 to numFiles
                     ...f3
 
 endfor
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
