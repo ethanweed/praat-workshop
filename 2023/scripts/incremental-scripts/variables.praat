@@ -1,5 +1,5 @@
 name$ = "Ethan"
-age = 49
+age = 50
 nameCat$ = "D2"
 
 age$ = string$: age

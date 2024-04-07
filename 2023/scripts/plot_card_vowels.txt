@@ -14,3 +14,12 @@ df.head()
 ax = sns.scatterplot(data=df, x=df['F2'], y=df['F1'])
 ax.invert_yaxis()
 ax.invert_xaxis()
+
+
+# add labels to points
+for i in range(0,df.shape[0]):
+  ax.text(df['F2'][i]+0.01, df['F1'][i], 
+          df['Vowel'][i], horizontalalignment='left', 
+          size='medium', color='black', weight='semibold')
+
+
