@@ -7,7 +7,7 @@ customTheme : "ethan-slides"
 # Goal 1
 ## Understanding Spectrograms
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/understanding_spectrograms.png?raw=true" width="600"/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/understanding_spectrograms.png?raw=true" width="600"/>
 
 ---
 
@@ -29,7 +29,7 @@ But what is pitch?
 
 ## Point processes
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/understanding_spectrograms_point-process.png?raw=true" width="600"/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/understanding_spectrograms_point-process.png?raw=true" width="600"/>
 
 --
 
@@ -41,7 +41,7 @@ Let's make ambulance sounds
 
 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclipartix.com%2Fwp-content%2Fuploads%2F2016%2F11%2FImages-ambulance-clipart-yellow-clip-art.png&f=1&nofb=1&ipt=feaf2ee180b7b785b0c79f6855fa13704b5f4e02e0ff12531682c38da5e27fd2&ipo=images" width="200"/>
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/baa-boo_pp.png?raw=true" width="600"/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/baa-boo_pp.png?raw=true" width="600"/>
 
 --
 
@@ -85,7 +85,7 @@ What is your perceptual range?
 
 <div id = "right">
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/make-sine.gif?raw=true" width="400"/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/make-sine.gif?raw=true" width="400"/>
 </div>
 
 
@@ -100,7 +100,7 @@ What is your perceptual range?
 
 ## From moving air to neurotransmission
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/NIH-Hearing.gif?raw=true" width=""/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/NIH-Hearing.gif?raw=true" width=""/>
 
 --
 
@@ -126,7 +126,7 @@ What is your perceptual range?
 
 <div id = "right">
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/Sine-100-Hz.png?raw=true" width="500"/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/Sine-100-Hz.png?raw=true" width="500"/>
 
 </div>
 
@@ -146,7 +146,7 @@ What is your perceptual range?
 
 <div id = "right">
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/Sine-100-Hz_spectral-slice.png?raw=true" width="500"/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/Sine-100-Hz_spectral-slice.png?raw=true" width="500"/>
 
 </div>
 
@@ -156,20 +156,20 @@ What is your perceptual range?
 ## Let's build sounds
 100 Hz sine wave
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/make-sine-with-formula.gif?raw=true" width=""/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/make-sine-with-formula.gif?raw=true" width=""/>
 
 --
 ## Let's build sounds
 Select 100 ms
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/select-100%20ms.gif?raw=true" width=""/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/select-100%20ms.gif?raw=true" width=""/>
 
 --
 
 ## Let's build sounds
 100 Hz sine with 200 Hz overtone
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/make-sine-with-overtone.gif?raw=true" width=""/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/make-sine-with-overtone.gif?raw=true" width=""/>
 
 --
 
@@ -177,11 +177,11 @@ Select 100 ms
 
 <div id = "left">
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/100-Hz.png?raw=true" width=""/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/100-Hz.png?raw=true" width=""/>
 
 </div>
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/100+200%20Hz.png?raw=true" width=""/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/100+200%20Hz.png?raw=true" width=""/>
 
 <div id = "right">
 
@@ -194,7 +194,7 @@ Select 100 ms
 
 (sort of)
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/Sine-100-200-Hz_spectral-slice.png?raw=true" width=""/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/Sine-100-200-Hz_spectral-slice.png?raw=true" width=""/>
 
 
 
@@ -206,7 +206,7 @@ Select 100 ms
 
 ## Vowel Editor
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/vowel_editor.gif?raw=true" width=""/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/vowel_editor.gif?raw=true" width=""/>
 
 
 --
@@ -225,7 +225,7 @@ Select 100 ms
 
 <div id = "right">
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/vowel-editor.png?raw=true" width=""/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/vowel-editor.png?raw=true" width=""/>
 
 </div>
 
@@ -234,7 +234,7 @@ Select 100 ms
 --
 
 
-[Download an ``[i]``](https://github.com/ethanweed/praat-workshop/raw/main/data/cardinal_vowels/cardinal_vowel_wavs/vowels1.wav)
+[Download an ``[i]``](https://github.com/ethanweed/praat-workshop/2023/raw/main/data/cardinal_vowels/cardinal_vowel_wavs/vowels1.wav)
 
 --
 
@@ -254,7 +254,7 @@ Select 100 ms
 
 <div id = "right">
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/vowel-editor.png?raw=true" width=""/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/vowel-editor.png?raw=true" width=""/>
 
 </div>
 
@@ -262,7 +262,7 @@ Select 100 ms
 
 <div id = "left">
 [i], human
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/i_human.png?raw=true" width="400"/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/i_human.png?raw=true" width="400"/>
 
 </div>
 
@@ -270,7 +270,7 @@ Select 100 ms
 
 <div id = "right">
 [i], robot
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/i_robot.png?raw=true" width="400"/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/i_robot.png?raw=true" width="400"/>
 
 </div>
 
@@ -278,7 +278,7 @@ Select 100 ms
 
 ## I-human vs. I-Robot
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/i-human%20v%20i-robot%20slices.png?raw=true" width=""/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/i-human%20v%20i-robot%20slices.png?raw=true" width=""/>
 
 1. What differences do you observe?
 1. Where are the first and second formants?
@@ -296,17 +296,17 @@ Select 100 ms
 
 "see"
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/see_spectrogram.png?raw=true" width="450"/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/see_spectrogram.png?raw=true" width="450"/>
 
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/see-spectral-slices.png?raw=true" width="450"/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/see-spectral-slices.png?raw=true" width="450"/>
 
 
 --
 
 <div id = "left">
 
-Download this recording of the [cardinal vowels](https://github.com/ethanweed/praat-workshop/raw/main/data/cardinal_vowels.wav) (the picture is of Daniel Jones, but the voice on the recordings is not!)
+Download this recording of the [cardinal vowels](https://github.com/ethanweed/praat-workshop/2023/raw/main/data/cardinal_vowels.wav) (the picture is of Daniel Jones, but the voice on the recordings is not!)
 
 - Click the link and save the file to  your ``data`` folder
 - Open the file in Praat
@@ -324,12 +324,12 @@ Download this recording of the [cardinal vowels](https://github.com/ethanweed/pr
 
 ## Spectrogram settings
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/cardinal_vowels_spectrogram_settings.png?raw=true" width="550"/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/cardinal_vowels_spectrogram_settings.png?raw=true" width="550"/>
 
 
 --
 
-[The North Wind and the Sun](https://github.com/ethanweed/praat-workshop/raw/main/data/the_north_wind_and_the_sun.wav) 
+[The North Wind and the Sun](https://github.com/ethanweed/praat-workshop/2023/raw/main/data/the_north_wind_and_the_sun.wav) 
 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/The_North_Wind_and_the_Sun_-_Wind_-_Project_Gutenberg_etext_19994.jpg/220px-The_North_Wind_and_the_Sun_-_Wind_-_Project_Gutenberg_etext_19994.jpg" width=""/>
@@ -342,7 +342,7 @@ Download the file and save in ``data`` folder
 
 ## Annotation
 
-<img src="https://github.com/ethanweed/praat-workshop/blob/main/images/north-wind-pitch.png?raw=true" width="550"/>
+<img src="https://github.com/ethanweed/praat-workshop/2023/blob/main/images/north-wind-pitch.png?raw=true" width="550"/>
 
 
 ---
