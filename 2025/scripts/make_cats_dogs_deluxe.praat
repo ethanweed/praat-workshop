@@ -1,6 +1,6 @@
 # Read in sound file and TextGrid file
-Read from file: "/Users/ethan/Documents/GitHub/praat-workshop/2025/resources/cats_dogs.wav"
-Read from file: "/Users/ethan/Documents/GitHub/praat-workshop/2025/resources/cats_dogs.TextGrid"
+Read from file: "/Users/ethan/Documents/GitHub/praat-workshop/2025/data/cats_dogs.wav"
+Read from file: "/Users/ethan/Documents/GitHub/praat-workshop/2025/data/cats_dogs.TextGrid"
 
 # Create a pitch object (extract F0)
 selectObject: "Sound cats_dogs"
@@ -26,13 +26,15 @@ Insert picture from file: "/Users/ethan/Documents/praat_tutorial_tempfiles/D2_an
 # Draw the pitch contour and annotation
 Draw: 1, 0, 0, 0, 500, 18, "no", "centre", "no"
 
+Black
+Text: 1, "centre", 350, "half", "Everybody knows it..."
+
 # Create a pdf of the final image
-Save as PDF file: "/Users/ethan/Documents/GitHub/praat-workshop/2025/scripts/cats_dogs.pdf"
+Save as PDF file: "/Users/ethan/Documents/GitHub/praat-workshop/2025/output/cats_dogs_deluxe.pdf"
 
 # Clean up
 select all
 Remove
-
 
 
 

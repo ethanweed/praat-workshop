@@ -20,10 +20,9 @@ endfor
 ##############
 
 clearinfo
-
 max_number = 15
 
-for number from 1 to max_number
+for number from 1 to 3
 	appendInfoLine: number
 endfor
 
@@ -32,7 +31,6 @@ endfor
 ##############
 
 clearinfo
-
 puppies = 15
 
 for number from 1 to puppies
@@ -70,8 +68,25 @@ endfor
 
 ##############
 
+
 # for loops + conditionals
 # elif statements
+
+clearinfo
+puppies = 15
+
+for number from 1 to puppies
+	if number == 1
+		appendInfoLine: "There is ", number, " puppy"
+	elif number == 2
+		appendInfoLine: "There's a pair of puppies!"
+	else
+		appendInfoLine: "There are ", number, " puppies"
+	endif
+endfor
+
+
+##############
 
 clearinfo
 puppies = 15
