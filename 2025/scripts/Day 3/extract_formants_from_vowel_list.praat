@@ -12,7 +12,7 @@ form Formant Extractinator TM
 endform
 
 writeInfoLine: "This script will segment a sound file and extract formant measurements"
-
+appendInfoLine: "Pick a file to turn me loose on..."
 
 # Select input file
 inFile$ = chooseReadFile$: "Open a .wav file"
@@ -25,6 +25,8 @@ endif
 # Get base filename without the path and extension
 baseName$ = replace$(inFile$, ".wav", "", 0)
 baseName$ = replace_regex$(baseName$, ".*[/\\]", "", 0)
+
+appendInfoLine: "Choose the folder to save the extracted files in...."
 
 # Choose the output directory
 outDir$ = chooseDirectory$: "Choose the folder to save the extracted files"

@@ -12,11 +12,14 @@ form Formant Extractinator TM
 endform
 
 writeInfoLine: "This script will segment sound files and extract formant measurements"
+appendInfoLine: "Select directory containing WAV files"
+
 
 # Select directory containing WAV files
 inputDir$ = chooseDirectory$: "Select directory containing WAV files"
 inputDir$ = inputDir$ + "/"
 
+appendInfoLine: "Choose the folder to save the extracted files"
 # Choose the output directory
 outDir$ = chooseDirectory$: "Choose the folder to save the extracted files"
 outDir$ = outDir$ + "/"

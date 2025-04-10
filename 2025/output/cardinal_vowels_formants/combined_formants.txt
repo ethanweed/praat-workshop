@@ -1,0 +1,17 @@
+Interval	Label	Start	End	Duration	F1	F2	F3	Source_File
+1	Segment_1	0	0.904	0.904	372.5	2399.2	3187.5	cardinal_vowels_formants
+3	Segment_2	1.192	2.136	0.944	406.6	2300.7	2779.0	cardinal_vowels_formants
+5	Segment_3	2.512	3.440	0.928	693.6	1941.5	2768.5	cardinal_vowels_formants
+7	Segment_4	3.744	4.664	0.920	894.0	1483.9	2283.5	cardinal_vowels_formants
+9	Segment_5	5.008	5.936	0.928	716.9	1142.2	3038.3	cardinal_vowels_formants
+11	Segment_6	6.264	7.168	0.904	548.0	831.1	2986.5	cardinal_vowels_formants
+13	Segment_7	7.408	8.328	0.920	372.1	771.4	2888.0	cardinal_vowels_formants
+15	Segment_8	8.664	9.777	1.112	380.2	1095.7	2927.1	cardinal_vowels_formants
+2	Segment_1	0.289	0.817	0.528	228.6	2325.2	3105.1	kardinalvokaler_formants
+4	Segment_2	1.953	2.489	0.536	398.7	2079.3	2563.9	kardinalvokaler_formants
+6	Segment_3	3.449	3.985	0.536	509.7	1779.0	2438.0	kardinalvokaler_formants
+8	Segment_4	5.201	5.689	0.488	752.6	1387.3	2653.3	kardinalvokaler_formants
+10	Segment_5	7.193	7.681	0.488	612.7	995.9	2723.1	kardinalvokaler_formants
+12	Segment_6	9.233	9.753	0.520	456.9	906.1	2871.9	kardinalvokaler_formants
+14	Segment_7	11.049	11.593	0.544	365.5	748.6	2737.5	kardinalvokaler_formants
+16	Segment_8	12.817	13.321	0.504	272.6	686.3	3124.0	kardinalvokaler_formants

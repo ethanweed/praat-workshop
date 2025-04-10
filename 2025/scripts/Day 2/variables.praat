@@ -45,8 +45,8 @@ form Chomsky age comparinator
 	text message_to_Noam You can enter text here
 endform
 
-tomsAge = 96
-ageDiff = tomsAge - your_age
+noamsAge = 96
+ageDiff = noamsAge - your_age
 ageDiff$ = string$: ageDiff
 
 appendInfoLine: "Chomsky is " + ageDiff$ + " years older than you."

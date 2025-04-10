@@ -6,6 +6,17 @@
 # endfor
 
 
+
+
+
+
+
+
+
+
+
+
+
 #############
 
 clearinfo
@@ -17,28 +28,51 @@ endfor
 
 
 
-##############
 
-clearinfo
-max_number = 15
 
-for number from 1 to 3
-	appendInfoLine: number
-endfor
+
 
 
 
 ##############
 
 clearinfo
-puppies = 15
+max_number = 10
 
-for number from 1 to puppies
+for number from 1 to max_number
 	appendInfoLine: number
 endfor
 
 
+
+
+
+
+
+
 ##############
+
+
+clearinfo
+form variable getinator
+	comment Enter the maximum number
+	real max_number 20
+endform
+
+
+for number from 1 to max_number
+	appendInfoLine: number
+endfor
+
+
+
+
+
+
+
+
+##############
+
 
 clearinfo
 
@@ -47,6 +81,37 @@ puppies = 15
 for number from 1 to puppies
 	appendInfoLine: "There are ", number, " puppies"
 endfor
+
+
+
+
+
+
+
+
+
+
+
+##############
+
+
+clearinfo
+
+puppies = 4
+
+for number from 1 to puppies
+	appendInfoLine: "There are " + string$(number) + " puppies"
+endfor
+
+
+
+
+
+
+
+
+
+
 
 
 ##############
@@ -69,6 +134,17 @@ endfor
 ##############
 
 
+
+
+
+
+
+
+
+
+
+
+
 # for loops + conditionals
 # elif statements
 
@@ -80,6 +156,8 @@ for number from 1 to puppies
 		appendInfoLine: "There is ", number, " puppy"
 	elif number == 2
 		appendInfoLine: "There's a pair of puppies!"
+	elif number == 7
+		appendInfoLine: number, "? That's the bestest number of puppies, for sure!"
 	else
 		appendInfoLine: "There are ", number, " puppies"
 	endif
@@ -101,4 +179,4 @@ for number from 1 to puppies
 	endif
 endfor
 
-# Note! This is almost exactly the same as we would write in Python, R, or any number of other programming languages.
+# Note! This is almost exactly the same as we would write in Python, R, Javascript, or any number of other programming languages.
