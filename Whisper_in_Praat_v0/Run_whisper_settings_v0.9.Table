@@ -1,0 +1,2 @@
+show_startup_message	output_folder_name	language	other_language	model	attempt_to_use_GPU	processing_method	use_existing_.json_file	json	lrc	srt	text	tsv	txt	vtt	processed_tsv	TextGrid_utterances	TextGrid_words	TextGrid_probabilities	suppress_punctuation_and_utterance_initial_uppercase	reanalyze_utterance_boundaries	keep_TextGrid_and_LongSound_in_Objects_window	beep_when_finished	debug_mode	advanced_mode
+1	whisper-output/	1	Yoruba	2	1	1	0	0	0	1	1	0	0	0	0	1	1	0	1	1	1	1	0	0

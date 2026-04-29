@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Praat Workshop Outline</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2rem;
+      color: #222;
+    }
+
+    details {
+      margin-left: 1.2rem;
+      margin-top: 0.2rem;
+    }
+
+    summary {
+      cursor: pointer;
+      padding: 2px 4px;
+      border-radius: 3px;
+      list-style: disclosure-closed;
+    }
+
+    summary:hover {
+      background-color: #f0f0f0;
+    }
+
+    details[open] > summary {
+      list-style: disclosure-open;
+    }
+
+    .leaf {
+      margin-left: 1.2rem;
+      padding: 2px 4px;
+      margin-top: 0.2rem;
+      max-width: 60ch; /* "ch" units = roughly characters wide */
+    }
+
+    h2 {
+      margin-bottom: 0.3rem;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Praat Workshop</h1>
+
+<details open>
+  <summary><strong>Day 1: Introduction to Praat</strong></summary>
+
+  <details>
+    <summary>Morning</summary>
+
+    <details>
+      <summary>Introduction (9:15–10:00)</summary>
+      <details>
+        <summary>Goals</summary>
+        <details>
+			<summary>Become <em>more familiar</em> with Praat</summary>			
+				<div class="leaf">What are all these windows?</div>
+				<div class="leaf">Why is Praat so weird!</div>
+		</details>
+        <details>
+          <summary>Become <em>more aware</em> of computational approaches to linguistics</summary>
+          <div class="leaf">What does it mean to be "computational"?</div>
+          <div class="leaf">What are the benefits and drawbacks to computational approaches?</div>
+        </details>
+      </details>
+      <details>
+        <summary>Orient yourselves in Praat</summary>
+        <div class="leaf">Objects window</div>
+        <div class="leaf">View &amp; Edit window</div>
+        <div class="leaf">Scripts window</div>
+        <div class="leaf">Info window</div>
+        <div class="leaf">Picture window</div>
+        <div class="leaf">Etc.</div>
+      </details>
+    </details>
+
+    <details>
+      <summary>Use Praat to learn about sound (10:15–11:00)</summary>
+      <div class="leaf">Sound is a physical phenomenon</div>
+      <div class="leaf">Experience of sound is a psychological phenomenon</div>
+        <div class="leaf">Sine waves</div>
+        <div class="leaf">Adding sine waves</div>
+        <div class="leaf">Measuring (and checking) pitch</div>
+        <div class="leaf">Adjusting spectrogram settings</div>
+    </details>
+
+    <details>
+      <summary>Write our first Praat scripts (11:15–12:00)</summary>
+      <div class="leaf">Script files</div>
+      <div class="leaf">The history-paste/history-clear method</div>
+      <div class="leaf">Objects</div>
+      <div class="leaf">The input → extract → output cycle</div>
+      <details>
+        <summary>Some nitpicky details</summary>
+        <div class="leaf">Windows: Shift right-click in Explorer → "Copy as path"</div>
+        <div class="leaf">MacOS: Option-right-click → "Copy as Pathname"</div>
+		<div class="leaf">File formats</div>
+      </details>
+      <details>
+        <summary>Extract pitch from a file</summary>
+          <div class="leaf">cats_dogs</div>
+          <div class="leaf">To Pitch</div>
+          <div class="leaf">Inspect values in script</div>
+          <div class="leaf">Modify values</div>
+			<div class="leaf">Draw</div>
+			<div class="leaf">Save</div>
+			<div class="leaf"><a href="https://youtu.be/ZWUgnx82EbY">A video tutorial</a></div>
+      </details>
+    </details>
+
+    <div class="leaf">Lunch (12:00–13:00)</div>
+  </details>
+
+  <details>
+    <summary>Afternoon (13:00–14:00)</summary>
+    <details>
+      <summary>Challenges</summary>
+      <details>
+        <summary>1. Advanced</summary>
+        <div class="leaf">Using what we have learned today (Praat scripts, clear history, paste history), plus poking around in the Praat menus, <em>create a script that makes a spectrogram of a Praat-synthesised voice saying a phrase of your choice.</em> Hint: find the feature called "Text-to-speech synthesis". Save your script in your "scripts" folder.</div>
+      </details>
+      <details>
+        <summary>2. Extra advanced!</summary>
+        Record yourself saying something. Then make a script that:
+        <ol>
+			<li>Reads in your recording and creates a spectrogram</li>
+			<li>Makes a spectrogram of the text-to-speech synthesizer saying the same thing</li>
+			<li>Plots your spectrogram at the top, and the TTS spectrogram below it</li>
+			<li>Adds titles above each spectrogram</li>
+			<li>Exports to a PDF or PNG in your "output" folder</li>
+			<li>Saves your script to your "scripts" folder</li>
+        </ol>
+      </details>
+    </details>
+  </details>
+</details>
+
+<details open>
+  <summary><strong>Day 2: Scripting Praat</strong></summary>
+
+  <details>
+    <summary>Morning</summary>
+    <div class="leaf">Review: What did we learn yesterday? (9:15–9:30)</div>
+    <details>
+      <summary>Working with TextGrids (9:30–10:00)</summary>
+      <div class="leaf">Pitch contour with annotation (north wind)</div>
+    </details>
+    <details>
+      <summary>Automatically find vowels (10:15–11:00)</summary>
+      <div class="leaf">Try two methods (script 1 and script 2)</div>
+      <div class="leaf">Which settings work best?</div>
+    </details>
+    <details>
+      <summary>Introduction to programming (11:15–12:00)</summary>
+      <div class="leaf">Hello world</div>
+      <div class="leaf">Variables</div>
+      <div class="leaf">Loops</div>
+      <div class="leaf">Conditionals</div>
+      <div class="leaf">Puppies exercise</div>
+      <div class="leaf">Code editors (IDEs)</div>
+      <div class="leaf">Pseudo code → LLMs</div>
+    </details>
+    <div class="leaf">Lunch (12:00–13:00)</div>
+  </details>
+
+  <details>
+    <summary>Afternoon: Code, debug, code…</summary>
+    <div class="leaf">Use a combination of what you have learned, together with e.g. Copilot, ChatGPT, etc. to create a SIMPLE script that automates some aspect of acoustic analysis. Start simple and build up. LLMs are not great at Praat yet. Try to process multiple sound files (e.g. all vowels in the cardinal_vowels folder).</div>
+  </details>
+</details>
+
+<details open>
+  <summary><strong>Day 3: Extracting and Plotting Vowels</strong></summary>
+
+  <details>
+    <summary>Morning</summary>
+    <div class="leaf">Review: demo your scripts Friday</div>
+    <div class="leaf">Creating vowels in Praat</div>
+    <details>
+      <summary>Vowel space graphs</summary>
+      <div class="leaf">Extracting vowels with scripts</div>
+      <div class="leaf">Arranging data</div>
+      <div class="leaf">Plotting vowels with Praat</div>
+      <div class="leaf">Plotting vowels with Python</div>
+      <div class="leaf">Make your own vowel space charts</div>
+    </details>
+    <div class="leaf">Lunch (12:00–13:00)</div>
+  </details>
+
+  <details>
+    <summary>Afternoon</summary>
+    <div class="leaf">(Content TBD)</div>
+  </details>
+</details>
+
+</body>
+</html>
